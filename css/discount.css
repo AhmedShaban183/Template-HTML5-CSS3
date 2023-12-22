@@ -1,0 +1,128 @@
+
+
+.items{
+    display: grid;
+    grid-template-columns: 45% 27% 27%;
+    grid-gap: 20px;
+    margin: 30px 0;
+}
+.items .item1{
+    background-color: #f7f3ef;
+    padding:25px 35px;
+    position: relative;
+}
+.items .item1 .subtitle{
+padding-left: 70px;
+margin-bottom: 25px;
+}
+.items .item1 .subtitle h2{
+    
+    padding-bottom: 5px;
+
+}
+.items .item1 .subtitle span{
+    color:gray;
+}
+.items .item1 .left-quote{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    color: #7b5244;
+    
+    text-align: center;
+}
+
+.items .item1 p{
+    color: gray;
+}
+.items .item1 .lines{
+    text-align:right;
+    padding-top: 50px;
+}
+.items .item1 .three-line{
+
+    width: 60px;
+    height: 3px;
+    background-color:#7b5244;
+    display: inline-block;
+}
+.items .item2{
+ position: relative;
+
+}
+.items .item2 img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.items .item2 .header-img{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+.items .item2 .header-img h4{
+    color: #7b5244;
+}
+.items .item2:hover img{
+    object-fit: cover;
+}
+.all-photo{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+   
+   
+   }
+   .all-photo .same-background{
+       text-align: center;
+       padding-bottom: 6px;
+       padding-top: 40px;
+       background-image: url("../images/service-icon.png");
+       background-repeat:  no-repeat;
+       transition: background 0.5s ;
+   }
+   .all-photo .element{
+       text-align: center;
+       border-right: 1px solid #7b5244;
+   }
+   .all-photo .element:last-child{
+       border: 0;
+   }
+   
+   .Fphoto{
+   background-position: center 4px;
+   }
+   .Sphoto{
+       background-position: center -183px;
+   }
+   .Tphoto{
+       background-position: center -360px;
+   }
+   .four-photo{
+       background-position: center -550px;
+   }
+   .five-photo{
+       background-position: center -740px;
+   }
+   .Fphoto:hover{
+       background-position: center -86px;
+   }
+   .Sphoto:hover{
+       background-position: center -273px;
+   }
+   .Tphoto:hover{
+       background-position: center -460px;
+   }
+   .four-photo:hover{
+       background-position: center -645px;
+   }
+   .five-photo:hover{
+       background-position: center -830px;
+   }
+   .all-photo .element h3{
+       margin: 20px 0 10px 0;
+   }
+   .border-line{
+       border-bottom: 1px solid #7b5244;
+       padding-top: 15px;
+   }

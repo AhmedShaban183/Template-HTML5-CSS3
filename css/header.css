@@ -1,0 +1,174 @@
+/* header nav*/
+.container .header-content{
+    display: flex;
+    flex-direction: row;
+}
+header nav{
+    margin: 20px 65px;
+}
+.header-content img{
+    max-width: 100%;
+    text-align: center;
+    height: fit-content;
+    padding-top: 22px;
+}
+nav .links{
+    margin: 15px auto;
+}
+nav .links li{
+    display: inline-block;
+   
+    color:#333;
+    
+}
+nav .links li a{
+    position: relative;
+    padding: 10px 20px;
+}
+nav .links li a:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 99%;
+    height: 100%;
+    border-width: 0 2px;
+    border-color: #7b5244;
+    border-style: solid;
+    transform: scale3d(1,0,1);
+    transition: transform 0.2s;
+
+}
+
+
+nav .links li a:hover:before{
+    transform: scale3d(1,1,1);
+}
+
+nav .links li a:after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 93%;
+    border-width: 2px 0;
+    border-color: #7b5244;
+    border-style: solid;
+    transform: scale3d(0,1,1);
+    transition: transform 0.5s;
+
+}
+
+
+nav .links li a:hover:after{
+    transform: scale3d(1,1,1);
+    transition-delay: 0.2s;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 328%;
+    left:0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+    background-color: white;
+    right: -45%;
+}
+.dropdown-menu table{
+    background-color: white;
+    color: #333;
+    border-spacing: 2px;
+    width: 520px;
+    height: 215px;
+    padding: 20px 10px;
+}
+table th{
+    
+    color: #7b5244;
+}
+th span{
+    display: block;
+    padding-bottom: 10px;
+  width: 70%;
+  border-bottom: 1px solid #333;
+}
+th,td{
+    margin-left: 10px;
+}
+nav .links .dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;  
+}
+.dropdown .dropdown-menu li{
+    padding: 10px;
+}
+.dropdown-menu.more{
+    right: 0;
+    left: -185%;
+}
+header .login{
+    margin-top: 25px;
+    display: flex;
+    
+}
+header .login div{
+    display: inline-block;
+    padding: 15px 10px;
+}
+header .login .search-icon{
+  
+}
+header .login .search-icon span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/top-icon.png") no-repeat scroll center 4px transparent;
+    cursor: pointer;
+    
+}
+header .login .user-icon span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/top-icon.png") no-repeat scroll center -138px transparent;
+    cursor: pointer;
+    
+
+}
+
+
+header .login .card-icon a{
+    display: flex;
+}
+header .login .card-icon h2{
+    
+    font-size: 15px;
+    padding: 8px 0px 0 9px;
+
+}
+header .login .card-icon span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/top-icon.png") no-repeat scroll center -277px transparent;
+    cursor: pointer;
+    position: relative;
+}
+header .login .card-icon span:after{
+    position: absolute;
+    content: "0";
+    width: 15px;
+    height: 18px;
+    color: white;
+    background-color: #7b5244;
+    border-radius: 50%;
+    text-align: center;
+    top: 25%;
+    right: 0;
+    padding-bottom: 2px;
+}
+

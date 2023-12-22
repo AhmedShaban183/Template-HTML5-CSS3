@@ -1,0 +1,113 @@
+
+footer{
+    background-color: black;
+}
+footer .information{
+    display: grid;
+    grid-template-columns: 38% 15% 15% 30%;
+    margin-bottom: 30px;
+        
+}
+footer .first-div{
+color:white
+}
+footer .first-div img{
+    margin: 50px 0;
+    width:200px;
+}
+footer .first-div p{
+    line-height: 2;
+    color:gray;
+    padding: 15px 20px 20px 0;
+}
+footer .second-div{
+justify-self: left;
+padding-left: 30px;
+}
+footer .second-div h2{
+   color:white;
+   margin: 50px 0;
+}
+footer .second-div ul li{
+   padding-bottom: 20px;
+}
+
+footer .Thrid-div{
+    justify-self: right;
+    
+    
+
+}
+footer .Thrid-div h2{
+    color:white;
+    margin: 50px 0;
+ }
+footer .Thrid-div ul li{
+    padding-bottom: 20px;
+ }
+ 
+footer .subscribe{
+    justify-self: self-start;
+    margin-left: 100px;
+
+}
+footer .subscribe h2{
+    color:white;
+    margin: 50px 0;
+ }
+footer .subscribe ul {
+    margin-top: 40px;
+ }
+
+ footer .subscribe ul li{
+    display: inline-block;
+    padding-right: 20px;
+    
+    
+ }
+ footer .subscribe ul li a{
+    color: white;
+    padding: 5px;
+ }
+footer .subscribe .email-input{
+    position: relative;
+}
+footer .subscribe .email-input input{
+    background-color: black;
+    padding: 10px;
+    margin: 20px 0;
+    width: 320px;
+    height: 40px;
+}
+footer .subscribe .email-input button{
+    background-image: url(../images/newsletter.png);
+    background-repeat: no-repeat;
+    background-position: center 4px;
+    width: 40px;
+    height: 31px;
+    position: absolute;
+    top: 30%;
+    right: 3px;
+    background-color: black;
+    border: none;
+}
+footer .copy-right{
+
+    border-top: 1px solid gray;
+    background-color: black;
+    padding: 30px 0;
+    color: gray;
+}
+footer .fleft{
+   float: left;
+   color: white;
+   
+}
+footer .fleft p span{
+    text-decoration: underline;
+}
+footer .pay{
+    float: right ;
+    
+}
+

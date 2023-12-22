@@ -1,0 +1,156 @@
+   .product{
+    text-align: center;
+    color: black;
+    margin: 45px 0;
+   }
+   
+   
+   .product .product-list li{
+       display: inline-block;
+       padding-left: 50px;
+       font-weight: bold;
+   }
+   
+   .product ul li:hover a{
+       color: #7b5244;
+   }
+   .product-item{
+       display: grid;
+       grid-template-columns: 33% 33% 33%;
+       grid-gap: 20px;
+   }
+   .product-info{
+       position: relative;
+   }
+   
+   .product-info:hover .main{
+   opacity: 0;
+   visibility: hidden;
+   }
+   .product-info .not-main{
+       position: absolute;
+       top: 0;
+       left: 0;
+       opacity: 0;
+       visibility: hidden;
+   }
+   .product-info:hover .not-main{
+       opacity: 0.9;
+       visibility: visible;
+   }
+   .product-info .orange{
+       color: orange;
+   }
+   .product-info .gray{
+       color:#f7f3ef;
+   }
+   .product-info h4{
+       color:gray;
+       margin:10px 0;
+   }
+   .product-info .over-icons{
+       position: absolute;
+       top:40%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+       opacity: 0;
+       visibility: hidden;
+       
+   }
+   .product-info:hover .over-icons{
+       visibility: visible;
+       opacity: 1;
+   }
+   .product-info .over-icons li{
+   display: inline-block;
+   color: white;
+   background-color: black;
+   padding-left: 4px;
+   }
+   .product-info .over-icons li i{
+       padding: 10px;
+   }
+   
+   
+   
+   .two-div{
+       display: grid;
+       grid-template-columns: 39% 60%;
+       grid-gap: 20px;
+       margin: 30px 0;
+   }
+   .two-div .frame{
+     position: relative;
+   }
+   .two-div .frame video{
+       width: 100%;
+       height: 100%;
+   }
+   .two-div .frame .play-video{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       width: 20%;
+       height: 20%;
+       transform: translate(-50%,-50%);
+       
+   
+   }
+   .two-div .frame .play-video span{
+       display: inline-block;
+       background-image: url("../images/play.png");
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 100%;
+       height: 100%;
+   }
+   .two-div .item1{
+       background-color: #f7f3ef;
+       padding:25px 35px;
+       position: relative;
+   }
+   .two-div .item1 .subtitle{
+   padding-left: 131px;
+   margin-bottom: 60px;
+   }
+   .two-div .item1 .subtitle h2{
+       
+       margin-top: 19px
+       
+   }
+   
+   .two-div .item1 .left-date{
+       position: absolute;
+       top: 10%;
+       left: 5%;
+       color: #7b5244;
+       
+       text-align: left;
+   }
+   .two-div .item1 .left-date h1{
+       font-size: 40px;
+   }
+   
+   .two-div .item1 p{
+       color: gray;
+       line-height: 1.8;
+   }
+   .two-div .item1 .lines{
+       text-align:right;
+       padding-top: 50px;
+   }
+   .two-div .item1 .three-line{
+   
+       width: 60px;
+       height: 3px;
+       background-color:#7b5244;
+       display: inline-block;
+   }
+   .prands{
+       display: flex;
+       padding: 60px 30px;
+       flex-flow: row;
+       justify-content: space-around;
+   }
+   

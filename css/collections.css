@@ -1,0 +1,55 @@
+
+/*collection most popular*/
+
+.collections{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 20px;
+    padding-bottom: 50px;
+}
+.collections .collection{
+position: relative;
+padding-bottom: 20px;
+margin-bottom: 30px;
+}
+.collection img{
+    max-width:  -webkit-fill-available;
+
+}
+.collection .span-block{
+    display: block;
+    color:gray;
+    padding: 10px 0;
+}
+.collection .background-icon{
+    text-align: center;
+    background-color: #7b5244;
+    color: white;
+    width: 41px;
+    height: 46px;
+    display: inline-block;
+    padding-top: 11px;
+    position: absolute;
+    bottom: 24px;
+    right: 7px;
+    visibility: hidden;
+    opacity: 0;
+}
+.collection:hover .background-icon{
+    visibility: visible;
+    opacity: 1;
+}
+.collection:hover img{
+    transform: scale(1.05,1);
+}
+.container-collections{
+    position: relative;
+}
+.container-collections .bollates{
+    
+    transform: scale(1);
+}
+.container-collections .Bbrown{
+    left:48%;
+    background-color: #7b5244;
+}
